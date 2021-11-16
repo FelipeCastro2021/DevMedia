@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Responsivo - Home</title>
+
+    <!-- Tipografias -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+    />
+
+    <!-- Estilizações -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div id="logo">
+          <a href="index.html">
+            <img
+              src="assets/logo.png"
+              alt="Logo CM Life"
+              title="Clínica Médica Life"
+            />
+          </a>
+        </div>
+
+        <nav id="menu">
+          <a href="index.html#sobre">Sobre</a>
+          <a href="especialidades.html">Especialidades</a>
+          <a href="index.html#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="introduction">
+        <div id="introduction-text" class="container">
+          <h1 class="uppercase">
+            <strong>Clínica Médica Life</strong> <br />
+            aqui a gente cuida de você
+          </h1>
+        </div>
+      </section>
+
+      <section class="container" id="sobre">
+        <div class="subtitle">
+          <h2>Sobre a clínica</h2>
+          <p>
+            Nossa clínica está para receber nossos pacientes através de uma
+            excelente estrura, comodidade e com a segurança de que vocês
+            precisam.
+          </p>
+        </div>
+
+        <div id="sobre-texto">
+          <img
+            src="assets/medico.jpg"
+            alt="Médico apontando para nossas características"
+          />
+
+          <div class="sobre-caracteristicas">
+            <h3 class="uppercase">Aqui na nossa clínica você vai encontrar</h3>
+            <ul>
+              <li>Horário flexível. Atendemos de segunda à sabado.</li>
+              <li>Estacionamento amplo com 600 vagas</li>
+              <li>Sala de espera com TV e Wifi</li>
+              <li>Agendamento pelo telefone ou Whatsapp</li>
+              <li>Excelente localização</li>
+              <li>Entrega de exames em sua residência</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="especialidades" class="container">
+        <div class="subtitle">
+          <h2>Uma clínica com multiespecialidades</h2>
+          <p>
+            Nossa clínica possui diversas especialidades. Como ortopedia,
+            pediatria, geriatria, psicologia, fisioterapia e outros.
+          </p>
+        </div>
+
+        <div id="especialidades-cards">
+          <figure class="card">
+            <img
+              src="assets/ortopedia1.png"
+              alt="Ortopedista"
+              class="uppercase"
+            />
+            <figcaption class="uppercase">Ortopedia</figcaption>
+          </figure>
+
+          <figure class="card">
+            <img src="assets/pediatra.png" alt="Pediatra" class="uppercase" />
+            <figcaption class="uppercase">Pediatria</figcaption>
+          </figure>
+
+          <figure class="card">
+            <img src="assets/geriatra.png" alt="Geriátra" class="uppercase" />
+            <figcaption class="uppercase">Geriatria</figcaption>
+          </figure>
+        </div>
+
+        <div class="container-btn">
+          <a href="especialidades.html" class="uppercase btn">Ver horários</a>
+        </div>
+      </section>
+
+      <section id="contato" class="container">
+        <div class="subtitle">
+          <h2>Contato</h2>
+          <p>
+            Nossa clínica está aberta de
+            <strong> segunda à sábado das 06:00 às 21:00 </strong>
+          </p>
+          <p>
+            Através do telefone/Whatsapp
+            <a href="tel:21999665555" class="telefone"
+              ><strong>(21) 99966-5555</strong></a
+            >
+            você pode fazer o agendamento de consultas e exames.
+          </p>
+          <p>
+            Estamos localizados no estacionamento do Vila Parque Shopping
+            <strong>
+              av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro</strong
+            >
+          </p>
+        </div>
+
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.116680118182!2d-43.36308168503287!3d-22.982736484973287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bda2ed54ec2e1%3A0x4431d262cad1d163!2sAv.%20Ayrton%20Senna%2C%203000%20-%20Barra%20da%20Tijuca%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022775-904!5e0!3m2!1spt-BR!2sbr!4v1636636525510!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <img src="assets/logo.png" alt="Logo CM Life" />
+        <p>Telefone e Whatsapp: (21) 99966-5555</p>
+        <p>
+          Endereço: Av. Ayrton Senna, 3000 - Barra da Tijuca, Rio de Janeiro
+        </p>
+        <p>&copy;2021 Clínica Médica Life - Todos os direitos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>
