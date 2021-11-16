@@ -37,7 +37,7 @@ main {
       color: gray;
     }
 
-    #especialidades-content {
+    .especialidades-content {
       display: flex;
 
       & > div {
@@ -74,7 +74,11 @@ main {
       text-align: center;
     }
 
-    div img {
+    div.subtitle p {
+      max-width: 90%;
+    }
+
+    div.especialidades-content div img {
       display: none;
     }
 
@@ -113,7 +117,7 @@ main {
       text-align: center;
     }
 
-    div img {
+    div.especialidades-content > div {
       display: none;
     }
 

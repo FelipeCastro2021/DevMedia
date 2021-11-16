@@ -51,13 +51,13 @@ main section .subtitle p {
   color: gray;
 }
 
-main section #especialidades-content {
+main section .especialidades-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main section #especialidades-content > div {
+main section .especialidades-content > div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,24 +66,24 @@ main section #especialidades-content > div {
           flex: 1;
 }
 
-main section #especialidades-content > div img {
+main section .especialidades-content > div img {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-main section #especialidades-content table {
+main section .especialidades-content table {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
   border-collapse: collapse;
 }
 
-main section #especialidades-content table thead {
+main section .especialidades-content table thead {
   background-color: cyan;
   color: #fff;
 }
 
-main section #especialidades-content table tbody tr:nth-child(odd) {
+main section .especialidades-content table tbody tr:nth-child(odd) {
   background-color: lightgray;
   color: darkslategray;
 }
@@ -93,7 +93,10 @@ main section #especialidades-content table tbody tr:nth-child(odd) {
   main h1 {
     text-align: center;
   }
-  main div img {
+  main div.subtitle p {
+    max-width: 90%;
+  }
+  main div.especialidades-content div img {
     display: none;
   }
   main section.container {
@@ -126,7 +129,7 @@ main section #especialidades-content table tbody tr:nth-child(odd) {
   main h1 {
     text-align: center;
   }
-  main div img {
+  main div.especialidades-content > div {
     display: none;
   }
   main td,
