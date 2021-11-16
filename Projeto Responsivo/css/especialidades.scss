@@ -1,0 +1,140 @@
+/* ESPECIALIDADES MENU */
+.menu-especialidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.2rem;
+    margin-bottom: 1.8rem;
+
+    a {
+      color: #000;
+      border-bottom: 3px solid lightblue;
+
+      &:hover {
+        color: lightblue;
+        cursor: pointer;
+      }
+    }
+  }
+
+  h1 {
+    color: gray;
+  }
+}
+
+/* ESPECIALIDADES */
+main {
+  margin: 5rem 0;
+
+  section {
+    .subtitle p {
+      color: gray;
+    }
+
+    #especialidades-content {
+      display: flex;
+
+      & > div {
+        display: flex;
+        flex: 1;
+
+        img {
+          object-fit: cover;
+        }
+      }
+
+      table {
+        flex: 2;
+        border-collapse: collapse;
+
+        thead {
+          background-color: cyan;
+          color: #fff;
+        }
+
+        tbody tr:nth-child(odd) {
+          background-color: lightgray;
+          color: darkslategray;
+        }
+      }
+    }
+  }
+}
+
+/* MEDIA QUERY ATÉ 425PX */
+@media screen and (max-width: 425px) {
+  main {
+    h1 {
+      text-align: center;
+    }
+
+    div img {
+      display: none;
+    }
+
+    section.container {
+      padding: 0;
+    }
+
+    td,
+    th {
+      padding: 0.5rem 1rem;
+    }
+
+    table {
+      font-size: 1.4rem;
+      flex: 1;
+      border-collapse: collapse;
+      max-width: 100%;
+
+      thead {
+        background-color: cyan;
+        color: #fff;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: lightgray;
+        color: darkslategray;
+      }
+    }
+  }
+}
+
+/* MEDIA QUERY ATÉ 768PX */
+@media screen and (max-width: 768px) {
+  main {
+    h1 {
+      text-align: center;
+    }
+
+    div img {
+      display: none;
+    }
+
+    td,
+    th {
+      padding: 0.5rem 1rem;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 0 1rem;
+
+      thead {
+        background-color: cyan;
+        color: #fff;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: lightgray;
+        color: darkslategray;
+      }
+    }
+  }
+}
